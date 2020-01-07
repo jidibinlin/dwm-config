@@ -15,30 +15,9 @@
             "-D_POSIX_C_SOURCE=2",
             "-DVERSION=\"6.2\"",
             "-DXINERAMA",
-            "drw.c"
-        ],
-        "directory": "/home/qibin/Downloads/dwm",
-        "file": "drw.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-std=c99",
-            "-pedantic",
-            "-Wall",
-            "-Wno-deprecated-declarations",
-            "-Os",
-            "-I/usr/include/X11/",
-            "-I/usr/include/freetype2",
-            "-D_DEFAULT_SOURCE",
-            "-D_BSD_SOURCE",
-            "-D_POSIX_C_SOURCE=2",
-            "-DVERSION=\"6.2\"",
-            "-DXINERAMA",
             "util.c"
         ],
-        "directory": "/home/qibin/Downloads/dwm",
+        "directory": "/home/qibin/Downloads/dwm-config",
         "file": "util.c"
     },
     {
@@ -59,7 +38,28 @@
             "-DXINERAMA",
             "dwm.c"
         ],
-        "directory": "/home/qibin/Downloads/dwm",
+        "directory": "/home/qibin/Downloads/dwm-config",
         "file": "dwm.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-Wall",
+            "-Wno-deprecated-declarations",
+            "-Os",
+            "-I/usr/include/X11/",
+            "-I/usr/include/freetype2",
+            "-D_DEFAULT_SOURCE",
+            "-D_BSD_SOURCE",
+            "-D_POSIX_C_SOURCE=2",
+            "-DVERSION=\"6.2\"",
+            "-DXINERAMA",
+            "drw.c"
+        ],
+        "directory": "/home/qibin/Downloads/dwm-config",
+        "file": "drw.c"
     }
 ]
