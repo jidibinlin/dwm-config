@@ -44,6 +44,7 @@ static const Rule rules[] = {
 	{ "Gimp",     NULL,       NULL,       0,            0,             1,           -1 },
 	{ "firefox",  NULL,       NULL,       0,            1,             1,           -1 },
 	{ "Xfce4-power-manager-settings",  NULL,NULL,0,     1,             1,           -1 },
+	{ "Pavucontrol", "pavucontrol",NULL,  0,            1,             1,           -1 },
 };
 
 /* layout(s) */
